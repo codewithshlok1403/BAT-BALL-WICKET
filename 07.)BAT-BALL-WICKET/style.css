@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.top {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    font-size: 44px;
+    font-weight: 600;
+    background-color: rgb(90, 90, 200);
+    flex-wrap: wrap;
+}
+.reset{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.resetGame{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(246, 8, 16);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    gap: 30px;
+}
+.score p{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 17px;
+}
+.boat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 17px;
+}
+.message{
+    display:flex;
+    width: 100vw;
+    justify-content: center;
+    font-weight: 700;
+    color: red;
+}
+.hide{
+    display:none
+}
